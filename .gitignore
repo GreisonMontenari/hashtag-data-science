@@ -44,13 +44,11 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
 
-# PyCharm
+# IDEs and editors
 .idea/
-
-# VS Code
 .vscode/
 
 # Environments
@@ -59,5 +57,8 @@ coverage.xml
 env/
 venv/
 
-# MacOS
+# MacOS system files
 .DS_Store
+
+# Logs
+*.log
